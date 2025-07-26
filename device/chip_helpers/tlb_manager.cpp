@@ -15,7 +15,7 @@
 
 namespace tt::umd {
 
-static constexpr uint64_t DEFAULT_ORDERING_MODE = tlb_data::Relaxed;
+static constexpr uint64_t DEFAULT_ORDERING_MODE = tlb_data::Strict;
 
 TLBManager::TLBManager(TTDevice* tt_device) : tt_device_(tt_device) {}
 
